@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counting</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Amarante&family=Bitcount+Grid+Single:wght@100..900&family=Bitcount+Ink:wght@100..900&family=Black+Ops+One&family=Bungee+Inline&family=Dr+Sugiyama&family=Eagle+Lake&family=Estonia&family=Fascinate+Inline&family=Faster+One&family=Freckle+Face&family=Frijole&family=Kablammo&family=Knewave&family=Lugrasimo&family=Major+Mono+Display&family=Miltonian&family=Modak&family=Monoton&family=Monsieur+La+Doulaise&family=Nabla&family=Playwrite+DK+Uloopet+Guides&family=Playwrite+MX+Guides&family=Quintessential&family=Rubik+Storm&family=Rubik+Wet+Paint&family=Russo+One&family=Tapestry&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <p id="countNumber">0</p>
+      <div class="child-tow">
+        <button class="btnreset btn-two" onclick="resetCount()">Reset</button>
+        <button class="btnsave btn-two" onclick="saveCount()">Save</button>
+        <button class="btnload btn-two" onclick="loadCont()">Load</button>
+      </div>
+
+      <div class="child-one">
+        <button class="btnincrease btn-one" onclick="increaseCount()">+</button>
+        <button class="btndecrease btn-one" onclick="decreaseCount()">-</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
