@@ -55,7 +55,7 @@ Countrol_Couter/
 
 ## 🌐 Live Demo
 
-👉 https://your-username.github.io/mix_control_counter/
+👉  https://tyvisal.github.io/simple-counter/
 
 ---
 
